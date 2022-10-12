@@ -6,7 +6,7 @@
   "author": "HaooLee",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HaooLee/react-3d-earth"
+    "url": "https://github.com/Jishrocks/react-3d-earth"
   },
   "description": "A 3d Earth based on Three.js that mimics github's home page",
   "keywords": [
