@@ -510,10 +510,6 @@ export default class Stage {
         clearTimeout(this.resizeTimeout),
             this.resizeTimeout = setTimeout((() => {
                     const {width: t, height: e} = bl.parentNode.getBoundingClientRect();
-                    this.camera.aspect = t / e,
-                        this.camera.updateProjectionMatrix(),
-                        this.renderer.setSize(t, e),
-                        this.positionContainer();
                     const n = 850 / e * 1
                         , i = this.radius * n;
                     this.shadowPoint.copy(this.parentContainer.position).add(new THREE.Vector3(.7 * i, .3 * -i, i)),
